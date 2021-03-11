@@ -1,0 +1,5 @@
+[컴파일 명령어]
+gcc -o listStack listMain.c listStack.c
+
+[실행]
+./listStack

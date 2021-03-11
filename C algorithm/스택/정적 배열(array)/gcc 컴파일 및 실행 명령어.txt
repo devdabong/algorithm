@@ -1,0 +1,5 @@
+[컴파일 명령어]
+gcc -o arrayStack arrayMain.c arrayStack.c
+
+[실행]
+./arrayStack

@@ -22,12 +22,8 @@ class Solution {
         for (int i = 2; i < arr.length; i++) {
             int a = lcm;
             int b = arr[i];
-            //System.out.println("a : " + a);
-            //System.out.println("b : " + b);
             gcd = calGcd(a, b);
             lcm = a * b / gcd;
-            //System.out.println("gcd : " + gcd);
-            //System.out.println("lcm : " + lcm);
         }
         answer = lcm;
         
